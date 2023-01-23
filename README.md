@@ -15,14 +15,18 @@ Read the contents of the CSV file using df.read function.
 End the program.
 ## PROGRAM:
 ```
+Developed by: Udayakumar R
+Reference Number: 22008609
+
 import pandas as pd
 df = pd.read_csv("nba.csv")
 print(df.head(10))
 print(df.tail())
 print("column", len(df.axes[0]))
 print("rows", len(df.axes[1]))
+
 ```
 ## OUTPUT:
-![](output.png)
+![OUTPUT](csv_out.png)
 ## RESULT:
 A python program to read data from CSV files has been created successfully.
